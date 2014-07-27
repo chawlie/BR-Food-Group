@@ -7,6 +7,8 @@ Header and Navigation
 */
 $primary-color: #027088;
 $secondary-color: #014f61;
+$light-blue: #97d3df;
+$alert-red: #c60f13;
 
  .divider {
  	display: none;
@@ -43,7 +45,7 @@ $secondary-color: #014f61;
 	background: #e9e9e9;
 }
 .current-menu-item li a {
-	background: $primary-color;
+	background: #e9e9e9;
 }
 .logo {
 	margin: 30px 0 20px 0;
@@ -91,3 +93,60 @@ Footer
 	line-height: 1;
 	display: block;  /* may not need this, but I've found I do */
 }
+
+/*
+========================================================================== 
+Form Styles
+========================================================================== 
+*/
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+	box-shadow: none;
+	border-radius: 5px;
+	font-size: 1.25em;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: $primary-color;
+	border: none;
+	padding: 20px;
+	color: white;
+	font-size: 1em;
+	font-family: "proxima nova", "proxima-nova", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
+	background: #FFFFFF;
+	border: 2px solid $light-blue;
+	outline: none;
+	box-shadow: none;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid {
+	border: 2px solid $alert-red;
+}
+span.wpcf7-form-control-wrap {
+	width: 100%;
+}
+span.wpcf7-not-valid-tip {
+	color: $alert-red !important;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid $alert-red !important;
+	background-color: $alert-red;
+	color: #fff;
+}
+div.wpcf7-response-output {
+margin: 2em 0 2em !important;
+padding: 0.8em 1em !important;
+}
+:focus {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+input[type="submit"]:hover{
+    background-color: $light-blue;
+}
+
