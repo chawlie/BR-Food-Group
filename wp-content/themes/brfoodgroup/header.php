@@ -49,7 +49,6 @@
 
 		</section>
 	</nav>
-
 	<?php get_template_part('parts/off-canvas-menu'); ?>
 
 	<?php get_template_part('parts/top-bar'); ?>
