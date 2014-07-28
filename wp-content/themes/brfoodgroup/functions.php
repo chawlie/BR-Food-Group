@@ -29,4 +29,10 @@ require_once('library/enqueue-scripts.php');
 // Add theme support
 require_once('library/theme-support.php');
 
+function sButton($atts, $content = null) {
+   extract(shortcode_atts(array('link' => '#'), $atts));
+   return '<a class="email button" href="'.$link.'"><span>' . do_shortcode($content) . '</span></a>';
+}
+add_shortcode('button', 'sButton');
+
 ?>
