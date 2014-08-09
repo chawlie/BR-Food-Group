@@ -18,25 +18,37 @@ get_header(); ?>
 		<div class="small-12 large-7 columns">
 			<h2>Welcome to The BR Food Group</h2>
 			<p>When you combine experts in baking, professionals in research and development, skilled customer service reps and savvy food brokers, what you’re left with are the raw ingredients for success.</p>
-			<span class="button">Learn More About Us</span>
+			<a href="<?php echo home_url( '/about/' ); ?>"><span class="button">Learn More About Us</span></a>
 		</div>
 </div>
 </div>
 <div class="row">
-	<div class="small-12 medium-4 columns home-feature text-center">
-		<img class="icon" src="<?php bloginfo('template_url'); ?>/assets/img/magnify.svg">
-		<img src="<?php bloginfo('template_url'); ?>/assets/img/packaging.jpg">
-		<span class="button">Our Client List</span>
+	<div class="small-12 medium-4 columns text-center">
+		<a href="<?php echo home_url( '/clients/' ); ?>">
+			<section class="home-feature">
+				<img class="icon" src="<?php bloginfo('template_url'); ?>/assets/img/magnify.svg">
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/packaging.jpg">
+				<span class="button">Our Client List</span>
+			</section>
+		</a>
 	</div>
-	<div class="small-12 medium-4 columns home-feature text-center">
-		<img class="icon" src="<?php bloginfo('template_url'); ?>/assets/img/bread.svg">
-		<img src="<?php bloginfo('template_url'); ?>/assets/img/sausage-egg.jpg">
-		<span class="button">Our Products</span>
+	<div class="small-12 medium-4 columns text-center"> 
+		<a href="<?php echo home_url( '/products/' ); ?>">
+			<section class="home-feature">
+				<img class="icon" src="<?php bloginfo('template_url'); ?>/assets/img/bread.svg">
+				<img src="<?php bloginfo('template_url'); ?>/assets/img/sausage-egg.jpg">
+				<span class="button">Our Products</span>
+			</section>
+		</a>
 	</div>
-	<div class="small-12 medium-4 columns home-feature text-center">
-		<img class="icon" src="<?php bloginfo('template_url'); ?>/assets/img/envelope.svg">
-		<img src="<?php bloginfo('template_url'); ?>/assets/img/temperature.jpg">
-		<span class="button">Contact Us</span>
+	<div class="small-12 medium-4 columns text-center">
+		<a href="<?php echo home_url( '/contact/' ); ?>">
+			<section class="home-feature">
+			<img class="icon" src="<?php bloginfo('template_url'); ?>/assets/img/envelope.svg">
+			<img src="<?php bloginfo('template_url'); ?>/assets/img/temperature.jpg">
+			<span class="button">Contact Us</span>
+			</section>
+		</a>
 	</div>
 <!-- <div class="row">
 	<div class="small-12 large-12 columns" role="main">

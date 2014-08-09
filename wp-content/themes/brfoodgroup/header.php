@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" src="//use.typekit.net/tmc3hpv.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<title><?php if ( is_category() ) {
 			echo 'Category Archive for &quot;'; single_cat_title(); echo '&quot; | '; bloginfo( 'name' );
 		} elseif ( is_tag() ) {
@@ -37,21 +39,23 @@
 	<div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 	
-	<?php do_action('foundationPress_layout_start'); ?>
-	
-	<nav class="tab-bar show-for-small-only">
-		<section class="left-small">
-			<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-		</section>
-		<section class="middle tab-bar-section">
+			<?php do_action('foundationPress_layout_start'); ?>
 			
-			<h1 class="title"><?php bloginfo( 'name' ); ?></h1>
+			<nav class="tab-bar show-for-small-only">
+				<section class="left-small">
+					<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+				</section>
+				<section class="middle tab-bar-section">
+					<ul class="no-bullet text-center">
+				        <li class="logo">
+							<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_url'); ?>/assets/img/brfoodgroup-logo.svg" alt="BR Food Group" title="BR Food Group"></a>
+						</li>
+					</ul>
+				</section>
+			</nav>
+			<?php get_template_part('parts/off-canvas-menu'); ?>
 
-		</section>
-	</nav>
-	<?php get_template_part('parts/off-canvas-menu'); ?>
-
-	<?php get_template_part('parts/top-bar'); ?>
+			<?php get_template_part('parts/top-bar'); ?>
 
 <section class="container" role="document">
 	<?php do_action('foundationPress_after_header'); ?>
