@@ -47,6 +47,7 @@ get_header(); ?>
 			<li>Pretzel Dog</li>
 			<li>Corn Dog</li>
 			<li>Hot Dog</li>
+			<li>Roller Grill Kolache</li>
 		</ul>
 		<p><strong><span>Muffins</span></strong></p>
 		<ul>
@@ -54,7 +55,7 @@ get_header(); ?>
 			<li>Blueberry</li>
 			<li>Apply</li>
 			<li>Carrot Cake</li>
-			<li>Can Apple with Almonds</li>
+			<li>Cran Apple with Almonds</li>
 			<li>White Chocolate Macadamia</li>
 		</ul>
 	</div>

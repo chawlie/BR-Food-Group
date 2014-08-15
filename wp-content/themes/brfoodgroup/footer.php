@@ -7,7 +7,7 @@
 						<h2>Give us a call:</h2>
 							<ul class="no-bullet phoneline">
 								<li class="hide-for-small"><img src="<?php bloginfo('template_url'); ?>/assets/img/phone.svg"></li>
-								<li class="phone">836-466-4990</li>
+								<li class="phone">214-629-4600</li>
 							</ul>
 						<p>Copyright ©2014 BR Food Group.</p>
 					</section>
