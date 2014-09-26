@@ -13,7 +13,7 @@ get_header(); ?>
 	<div class="hero-text">
 		<div class="row">
 			<div class="small-12 medium-10 push-1 columns text-center">
-				<h1>Our Passion Your Profit</h1>
+				<h1>Our Passion. Your Profit.</h1>
 			</div>
 		</div>
 	</div>

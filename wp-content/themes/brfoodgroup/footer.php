@@ -26,5 +26,9 @@
 </div>
 <?php wp_footer(); ?>
 <?php do_action('foundationPress_before_closing_body'); ?>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slick-single.js"></script>
 </body>
 </html>

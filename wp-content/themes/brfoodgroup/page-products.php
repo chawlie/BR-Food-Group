@@ -74,7 +74,7 @@ get_header(); ?>
 			<li>Vanilla</li>
 			<li>Chocolate</li>
 			<li>Chocolate &amp; Vanilla Swirl</li>
-			<li>Orea</li>
+			<li>Oreo</li>
 		</ul>
 	</div>
 </div>
@@ -86,8 +86,8 @@ get_header(); ?>
           <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-strawberry.jpg"></a></li>
           <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-cherry.jpg"></a></li>
           <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-cheese.jpg"></a></li>
-          <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-chocolate.jpg"></a></li>
-          <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-apricot.jpg"></a></li>
+          <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-bacon.jpg"></a></li>
+          <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-breakfastlink.jpg"></a></li>
           <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-hameggcheese.jpg"></a></li>
           <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-sausage-link.jpg"></a></li>
           <li><img src="<?php bloginfo('template_url'); ?>/assets/img/product-sausage-egg.jpg"></a></li>

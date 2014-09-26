@@ -68,12 +68,4 @@ function the_title_trim($title) {
 }
 add_filter('the_title', 'the_title_trim');
 
-// This Turns off jquery to allow slick slider to pull in it's version although I don't completely understand why.
-add_action('wp_enqueue_scripts', 'no_more_jquery');
-
-function no_more_jquery(){
-    wp_deregister_script('jquery');
-}
-
 ?>
-
